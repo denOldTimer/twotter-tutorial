@@ -150,6 +150,28 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 ---
 
+## Basics : Chapter 5 : Forms & Handling USER input
+
+1. create a form
+2. create a label & textarea
+3. create a select & dynamic options -
+   - <option :value="option.value" v-for="(option, index) in twootTypes" :key="index">
+   - the v-for is looping a list of options named `twootTyps`
+   - the v-for requires a key - value pair
+   - twootTypes doesn't have a dedicated key (ex. id) so we add the index of the array as key
+4. the [v-model] attribute for handeling form data
+   - v-model creates a sync link between de form input and a data component/variable/placeholder
+   - in our ex. textarea is v-model with data-> newTwootContent
+5. the submit
+   - normal submits refresh the html page, so to stop this we use `prevent`
+   - `@submit.prevent="createNewTwoot"`
+   - if we prevent, we have to replace it with something else `createNewTwoot`
+     - [Mutation Methods] :
+       - unshift => puts the item @ the top of the list = LIFO {last in, first out}
+       - push => pust the item @ the back of the list LILO {last in, last out}
+
+---
+
 [data]: https://v3.vuejs.org/api/options-data.html#data-2
 [props]: https://v3.vuejs.org/api/options-data.html#props
 [computed]: https://v3.vuejs.org/api/options-data.html#computed
@@ -172,3 +194,5 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [conditionals]: https://v3.vuejs.org/guide/conditional.html
 [v-if]: https://v3.vuejs.org/guide/conditional.html#v-if
 [v-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
+[v-model]: https://v3.vuejs.org/api/directives.html#v-model
+[mutation methods]: https://v3.vuejs.org/guide/list.html#mutation-methods
