@@ -146,7 +146,7 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 4. Events:
    - from parent to child component pass data through the use of props `:username="user.username`
-   - from child to parent component the use of [emits]
+   - from child to parent component the use of [emits] : favourite()
 
 ---
 
