@@ -60,11 +60,11 @@ This repo:
 
 **SO LETS GET ON WITH IT !**
 
-## Setup Chapter One : Course Introduction
+## Setup : Chapter One : Course Introduction
 
 basic understanding of HTML, CSS, JAVASCRIPT
 
-## Setup Chapter Two : Project Setup.
+## Setup : Chapter Two : Project Setup.
 
 This is where I did it differently:
 
@@ -100,3 +100,36 @@ This is where I did it differently:
      - `git push -u origin main`
 
 **DOWNLOAD** **[release 1.0.0](https://github.com/denOldTimer/releases/1.0.0)**
+
+## Basics : Chapter 3 : Building Single File Components
+
+- data : The function that returns a data object for the component instance
+- computed: Computed properties to be mixed into the component instance
+- methods: Methods to be mixed into the component instance
+- life cycle hook: mounted
+- watch
+
+DATA links: { [data], [props], [computed], [methods], [watch], [emits] }  
+Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],  
+ [beforeUpdate], [updated], [activated], [deactivated], [beforeUnmount], [unmounted],  
+ [errorCaptured], [renderTracked], [renderTriggered] }
+
+[data]: https://v3.vuejs.org/api/options-data.html#data-2
+[props]: https://v3.vuejs.org/api/options-data.html#props
+[computed]: https://v3.vuejs.org/api/options-data.html#computed
+[methods]: https://v3.vuejs.org/api/options-data.html#methods
+[watch]: https://v3.vuejs.org/api/options-data.html#watch
+[emits]: https://v3.vuejs.org/api/options-data.html#emits
+[beforecreated]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#beforecreate
+[created]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#created
+[beforemount]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#beforemount
+[mounted]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#mounted
+[beforeupdate]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#beforeupdate
+[updated]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#updated
+[activated]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#activated
+[deactivated]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#deactivated
+[beforeunmount]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#beforeunmount
+[unmounted]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#unmounted
+[errorcaptured]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#errorcaptured
+[rendertracked]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked
+[rendertriggered]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered
