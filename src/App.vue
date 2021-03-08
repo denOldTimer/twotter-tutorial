@@ -1,5 +1,5 @@
 <template>
-  <div id="app">@{{ user.username }}</div>
+  <div id="app">@{{ user.username }} - {{ fullname }}</div>
 </template>
 
 <script>
@@ -17,6 +17,11 @@ export default {
        email: 'mitchellromney@tehearthissquare.com',
        isAdmin: true
      }
+    }
+  },
+  computed:{
+    fullname(){
+      return `${this.user.firstName} ${this.user.lastName}`
     }
   }
 }
