@@ -23,6 +23,16 @@ export default {
      }
     }
   },
+  /**
+   *  Watch generally used for server changes ex. notifications
+   */
+  watch:{
+    followers(newFollowerCount, oldFollowerCount){
+      if( oldFollowerCount > newFollowerCount){
+        console.log(`${this.user.username} has gained a follower!`)
+      }
+    }
+  },
   computed:{
     fullname(){
       return `${this.user.firstName} ${this.user.lastName}`
@@ -30,8 +40,11 @@ export default {
   },
   methods: {
     followUser(){
-      this.followers++
+      this.followers++;
     }
+  },
+  mounted(){
+    this.followUser();
   }
 }
 </script>
