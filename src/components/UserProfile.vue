@@ -7,6 +7,15 @@
         <strong>Followers: </strong>{{ followers }}
       </div>
     </div>
+    <div class="user-profile__twoots-wrapper">
+      <div
+        class="user-profile__twoot"
+        v-for="twoot in user.twoots"
+        :key="twoot.id"
+      >
+        {{ twoot.content }}
+      </div>
+    </div>
   </div>
 </template>
 
@@ -22,7 +31,11 @@ export default {
        firstName: 'Mitchell',
        lastName: 'Romney',
        email: 'mitchellromney@tehearthissquare.com',
-       isAdmin: true
+       isAdmin: true,
+       twoots: [
+           {id:1, content: "Twotter is Amazing!"},
+           {id:2, content: "Don't forget to subscribe to The Earth Is Square!"}
+       ]
      }
     }
   },

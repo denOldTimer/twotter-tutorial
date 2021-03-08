@@ -140,6 +140,9 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 1. Refactoring behind the scenes **DOWNLOAD** **[release 1.3.5](https://github.com/denOldTimer/releases/1.3.5)**
 
-2. [Conditionals] - v-if - add an Admin-badge - isAdmin true or false
+2. [Conditionals] - [v-if] - add an Admin-badge - isAdmin true or false
+3. [Conditionals] - [v-for] - add an Twoots List
 
 [conditionals]: https://v3.vuejs.org/guide/conditional.html
+[v-if]: https://v3.vuejs.org/guide/conditional.html#v-if
+[v-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
