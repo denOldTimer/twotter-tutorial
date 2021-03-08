@@ -99,7 +99,7 @@ This is where I did it differently:
    - Last push your local's first commit the two files to remote repo:
      - `git push -u origin main`
 
-**DOWNLOAD** **[release 1.0.0](https://github.com/denOldTimer/releases/1.0.0)**
+**DOWNLOAD** **[release 1.2.0](https://github.com/denOldTimer/releases/1.2.0)**
 
 ## Basics : Chapter 3 : Building Single File Components
 
@@ -134,6 +134,12 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [rendertracked]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked
 [rendertriggered]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered
 
+**DOWNLOAD** **[release 1.3.0](https://github.com/denOldTimer/releases/1.3.0)**
+
 ## Basics : Chapter 4 : Templates Condistionals, loops & events
 
-1. Refactoring behind the scenes
+1. Refactoring behind the scenes **DOWNLOAD** **[release 1.3.5](https://github.com/denOldTimer/releases/1.3.5)**
+
+2. [Conditionals] - v-if - add an Admin-badge - isAdmin true or false
+
+[conditionals]: https://v3.vuejs.org/guide/conditional.html
