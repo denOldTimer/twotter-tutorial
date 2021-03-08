@@ -146,3 +146,5 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [conditionals]: https://v3.vuejs.org/guide/conditional.html
 [v-if]: https://v3.vuejs.org/guide/conditional.html#v-if
 [v-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
+
+4. Refactoring behaind the sences: new component TwootItem
