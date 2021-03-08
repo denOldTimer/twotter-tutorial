@@ -133,3 +133,7 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [errorcaptured]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#errorcaptured
 [rendertracked]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked
 [rendertriggered]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered
+
+## Basics : Chapter 4 : Templates Condistionals, loops & events
+
+1. Refactoring behind the scenes
