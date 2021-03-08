@@ -45,7 +45,9 @@ Video chapters:
 DISCLAIMER:  
 Full rights for the content and video belong to Earth Is Square and Mitchell Romney.
 
-This repo:
+---
+
+**This repo:**
 
 - [twotter-tutorial](https://github.com/denOldTimer/twotter-tutorial)
 - author : denOldTimer
@@ -60,9 +62,13 @@ This repo:
 
 **SO LETS GET ON WITH IT !**
 
+---
+
 ## Setup : Chapter One : Course Introduction
 
 basic understanding of HTML, CSS, JAVASCRIPT
+
+---
 
 ## Setup : Chapter Two : Project Setup.
 
@@ -101,6 +107,8 @@ This is where I did it differently:
 
 **DOWNLOAD** **[release 1.2.0](https://github.com/denOldTimer/releases/1.2.0)**
 
+---
+
 ## Basics : Chapter 3 : Building Single File Components
 
 - data : The function that returns a data object for the component instance
@@ -113,6 +121,34 @@ DATA links: { [data], [props], [computed], [methods], [watch], [emits] }
 Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],  
  [beforeUpdate], [updated], [activated], [deactivated], [beforeUnmount], [unmounted],  
  [errorCaptured], [renderTracked], [renderTriggered] }
+
+**DOWNLOAD** **[release 1.3.0](https://github.com/denOldTimer/releases/1.3.0)**
+
+---
+
+## Basics : Chapter 4 : Templates Condistionals, loops & events
+
+1. Refactoring behind the scenes **DOWNLOAD** **[release 1.3.5](https://github.com/denOldTimer/releases/1.3.5)**
+
+2. [Conditionals]
+
+- [v-if] - add an Admin-badge - isAdmin true or false
+- [v-for] - add a Twoots List
+- **DOWNLOAD** **[release 1.4.1](https://github.com/denOldTimer/releases/1.4.1)**
+
+[conditionals]: https://v3.vuejs.org/guide/conditional.html
+[v-if]: https://v3.vuejs.org/guide/conditional.html#v-if
+[v-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
+
+3. Refactoring behaind the sences: new component TwootItem
+
+   - **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.4.2)**
+
+4. Events:
+   - from parent to child component pass data through the use of props `:username="user.username`
+   - from child to parent component the use of [emits] : favourite()
+
+---
 
 [data]: https://v3.vuejs.org/api/options-data.html#data-2
 [props]: https://v3.vuejs.org/api/options-data.html#props
@@ -133,18 +169,6 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [errorcaptured]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#errorcaptured
 [rendertracked]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked
 [rendertriggered]: https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertriggered
-
-**DOWNLOAD** **[release 1.3.0](https://github.com/denOldTimer/releases/1.3.0)**
-
-## Basics : Chapter 4 : Templates Condistionals, loops & events
-
-1. Refactoring behind the scenes **DOWNLOAD** **[release 1.3.5](https://github.com/denOldTimer/releases/1.3.5)**
-
-2. [Conditionals] - [v-if] - add an Admin-badge - isAdmin true or false
-3. [Conditionals] - [v-for] - add an Twoots List
-
 [conditionals]: https://v3.vuejs.org/guide/conditional.html
 [v-if]: https://v3.vuejs.org/guide/conditional.html#v-if
 [v-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
-
-4. Refactoring behaind the sences: new component TwootItem
