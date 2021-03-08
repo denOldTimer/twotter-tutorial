@@ -53,5 +53,50 @@ This repo:
   - TO follow along with the video and recreate for learning purposes
   - TO try and create a repo that has different branches for different stages {Chapters}
     - My Notes on that you can reade the [NOTES.MD](NOTES.md) file
+- my environment:
+  - Device: Asus Gaming Laptop from yester year.
+  - OS: Unbuntu Linux 20.04 Desktop
+  - IDE : VS Code
 
 **SO LETS GET ON WITH IT !**
+
+## Setup Chapter One : Course Introduction
+
+basic understanding of HTML, CSS, JAVASCRIPT
+
+## Setup Chapter Two : Project Setup.
+
+This is where I did it differently:
+
+1. Created th e github repo
+2. Go to your root projects directory: for example `sudo cd /home/projects/vuejs`
+3. run the command `vue ui`
+4. click `Create` to create a new project
+5. click the green button `Create a new Project here`
+6. Fill out the form :
+   - name: twotter-tutorial
+   - package manager: npm (my preference) can choose yarn
+   - override target folder -> off
+   - scaffold project without beginner instructions -> off
+   - initialize git -> off ( do that later)
+   - click the green button `Next ->`
+7. Select preset `Vue 3`as this is a vue 3 tutorial
+   - click the green button `Create Project`
+
+**!! WAIT** until the project is created before continuing to the next step
+
+8. Repo: **DO NOT CLONE YOUR REPO**
+9. Initialize your local git
+   - Open your terminal: `ctrl + alt + t`
+   - First create your local repo: `git init`
+   - Add two files: `git add .gitignore README.md`
+   - Commit to your local repo: `git commit -m 'init repo`
+   - **NEXT** change the local branch fom master to main
+     - THis is a github preference
+     - `git branch -M main`
+   - Next link your local repo to that on github.
+     - `git remote add origin git@github.com:<your username>/twotter-tutorial`
+   - Last push your local's first commit the two files to remote repo:
+     - `git push -u origin main`
+
+**DOWNLOAD** **[release 1.0.0](https://github.com/denOldTimer/releases/1.0.0)**
