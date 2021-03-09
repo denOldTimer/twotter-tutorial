@@ -216,8 +216,9 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 2. refactoring of CreateTwootPanel to composition API syntax
 3. refactoring of UserProfile to composition API syntax
 4. TwootItem need no refactoring due to the fact that props work the same in both syntaxes.
+5. refactoring of App to composition API syntax
 
-5. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.7.0)**
+6. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.7.0)**
 
 ---
 
