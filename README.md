@@ -57,7 +57,7 @@ Full rights for the content and video belong to Earth Is Square and Mitchell Rom
     - My Notes on that you can reade the [NOTES.MD](NOTES.md) file
 - my environment:
   - Device: Asus Gaming Laptop from yester year.
-  - OS: Unbuntu Linux 20.04 Desktop
+  - OS: Ubuntu Linux 20.04 Desktop
   - IDE : VS Code
 
 **SO LETS GET ON WITH IT !**
@@ -163,12 +163,17 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
    - v-model creates a sync link between de form input and a data component/variable/placeholder
    - in our ex. textarea is v-model with data-> newTwootContent
 5. the submit
+
    - normal submits refresh the html page, so to stop this we use `prevent`
    - `@submit.prevent="createNewTwoot"`
    - if we prevent, we have to replace it with something else `createNewTwoot`
+
      - [Mutation Methods] :
+
        - unshift => puts the item @ the top of the list = LIFO {last in, first out}
        - push => pust the item @ the back of the list LILO {last in, last out}
+
+6) **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.5.0)**
 
 ---
 
@@ -189,10 +194,23 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
    - add an conditional class --exceed if newTwootCharacterCount > 180 chars
 
 5. Global styling:
+
    - IMPORTANT make shore your App.vue style lang="scss", otherwise your app will not startup with global stylings
    - add a new folder styles and a file base.scss in the root of your src directory `./src/styles/base.scss`
    - create a `vue.config.js` file in the root of your project
    - restart server the vue.config.js isn't hot reload
+
+6. **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.6.0)**
+
+---
+
+## Advanced : Chapter 6.5 : Refactoring
+
+1. **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.6.5)**
+
+---
+
+## Advanced : Chapter 7 : The vue 3 Composition API
 
 ---
 
