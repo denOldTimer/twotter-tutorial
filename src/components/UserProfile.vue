@@ -1,18 +1,18 @@
 <template>
   <div class="user-profile">
     <div class="user-profile__user-panel">
-      <h1 class="user-profile__username">@{{ user.username }}</h1>
-      <div class="user-profile__admin-badge" v-if="user.isAdmin">Admin</div>
+      <h1 class="user-profile__username">@{{ state.user.username }}</h1>
+      <div class="user-profile__admin-badge" v-if="state.user.isAdmin">Admin</div>
       <div class="user-profile__follower-count">
-        <strong>Followers: </strong> {{ followers }}
+        <strong>Followers: </strong> {{ state.followers }}
       </div>
-      <CreateTwootPanel @add-twoot="addTwoot" />
+      <CreateTwootPanel @add-twoot="state.addTwoot" />
     </div>
     <div class="user-profile__twoots-wrapper">
       <TwootItem
-        v-for="twoot in user.twoots"
+        v-for="twoot in state.user.twoots"
         :key="twoot.id"
-        :username="user.username"
+        :username="state.user.username"
         :twoot="twoot"
       />
     </div>
@@ -20,13 +20,15 @@
 </template>
 
 <script>
+import { reactive } from "vue";
 import TwootItem from "./TwootItem";
 import CreateTwootPanel from "./CreateTwootPanel";
+
 export default {
   name: "UserProfile",
   components: { CreateTwootPanel, TwootItem },
-  data() {
-    return {
+  setup() {
+    const state = reactive({
       followers: 0,
       user: {
         id: 1,
@@ -37,15 +39,25 @@ export default {
         isAdmin: true,
         twoots: [
           { id: 1, content: "Twotter is Amazing!" },
-          { id: 2, content: "Don't forget to subscribe to The Earth Is Square!" },
+          {
+            id: 2,
+            content: "Don't forget to subscribe to The Earth Is Square!",
+          },
         ],
       },
+    });
+
+    function addTwoot(twoot) {
+      state.user.twoots.unshift({
+        id: state.user.twoots.length + 1,
+        content: twoot,
+      });
+    }
+
+    return {
+      state,
+      addTwoot,
     };
-  },
-  methods: {
-    addTwoot(twoot) {
-      this.user.twoots.unshift({ id: this.user.twoots.length + 1, content: twoot });
-    },
   },
 };
 </script>
