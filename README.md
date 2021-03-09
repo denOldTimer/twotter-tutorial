@@ -172,6 +172,30 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 ---
 
+## Basics : Chapter 6 : Dynamic Styling, Scss & Global styling
+
+1. install two new files
+
+   - sass `npm i -D sass`
+   - sass-loader `npm i -D sass-loader@10.1.1`
+   - why version `10.1.1` because Vue 3 doesn't play nice with the latest version od sass-loader
+   - restart your server
+
+2. refactoring css to scss of the `UserProfile.vue` page
+3. refactoring css to scss of the `TwootItem.vue` page
+
+4. Dynamic styling: adding a word count to the form
+
+   - add an conditional class --exceed if newTwootCharacterCount > 180 chars
+
+5. Global styling:
+   - IMPORTANT make shore your App.vue style lang="scss", otherwise your app will not startup with global stylings
+   - add a new folder styles and a file base.scss in the root of your src directory `./src/styles/base.scss`
+   - create a `vue.config.js` file in the root of your project
+   - restart server the vue.config.js isn't hot reload
+
+---
+
 [data]: https://v3.vuejs.org/api/options-data.html#data-2
 [props]: https://v3.vuejs.org/api/options-data.html#props
 [computed]: https://v3.vuejs.org/api/options-data.html#computed
