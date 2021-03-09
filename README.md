@@ -241,6 +241,12 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 ---
 
+## Advanced : Chapter 10 : Deploying to Heroku
+
+3. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.10.0)**
+
+---
+
 [data]: https://v3.vuejs.org/api/options-data.html#data-2
 [props]: https://v3.vuejs.org/api/options-data.html#props
 [computed]: https://v3.vuejs.org/api/options-data.html#computed
