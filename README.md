@@ -229,6 +229,16 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 3. Modified App.vue to work with the router to role it back just `ctrl +z`
 4. Router guards are the before and after events of a route
 
+5. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.8.0)**
+
+---
+
+## Advanced : Chapter 9 : Global State Management with Veux 4
+
+1. install using the vue ui
+2.
+3. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.9.0)**
+
 ---
 
 [data]: https://v3.vuejs.org/api/options-data.html#data-2
