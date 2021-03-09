@@ -235,7 +235,9 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 ## Advanced : Chapter 9 : Global State Management with Veux 4
 
-5. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.9.0)**
+1. install using the vue ui
+2.
+3. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.9.0)**
 
 ---
 
