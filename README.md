@@ -173,7 +173,7 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
        - unshift => puts the item @ the top of the list = LIFO {last in, first out}
        - push => pust the item @ the back of the list LILO {last in, last out}
 
-6) **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.5.0)**
+6) **DOWNLOAD** **[release 1.5.0](https://github.com/denOldTimer/releases/1.5.0)**
 
 ---
 
@@ -200,17 +200,25 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
    - create a `vue.config.js` file in the root of your project
    - restart server the vue.config.js isn't hot reload
 
-6. **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.6.0)**
+6. **DOWNLOAD** **[release 1.6.0](https://github.com/denOldTimer/releases/1.6.0)**
 
 ---
 
 ## Advanced : Chapter 6.5 : Refactoring
 
-1. **DOWNLOAD** **[release 1.4.2](https://github.com/denOldTimer/releases/1.6.5)**
+1. **DOWNLOAD** **[release 1.6.5](https://github.com/denOldTimer/releases/1.6.5)**
 
 ---
 
 ## Advanced : Chapter 7 : The vue 3 Composition API
+
+1. Documentation on [composition api]
+2. refactoring of CreateTwootPanel to composition API syntax
+3. refactoring of UserProfile to composition API syntax
+4. TwootItem need no refactoring due to the fact that props work the same in both syntaxes.
+5. refactoring of App to composition API syntax
+
+6. **DOWNLOAD** **[release 1.7.0](https://github.com/denOldTimer/releases/1.7.0)**
 
 ---
 
@@ -238,3 +246,4 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [v-for]: https://v3.vuejs.org/guide/list.html#mapping-an-array-to-elements-with-v-for
 [v-model]: https://v3.vuejs.org/api/directives.html#v-model
 [mutation methods]: https://v3.vuejs.org/guide/list.html#mutation-methods
+[composition api]: https://v3.vuejs.org/guide/composition-api-introduction.html#why-composition-api
