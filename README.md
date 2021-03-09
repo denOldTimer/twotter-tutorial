@@ -222,6 +222,15 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 
 ---
 
+## Advanced : Chapter 8 : Routing With Vue Router 4
+
+1. Documentation on [vue router 4]
+2. install router via browser vue ui -> plugins -> add router {at the top of the page}
+3. Modified App.vue to work with the router to role it back just `ctrl +z`
+4. Router gards are the before and after events of a route
+
+---
+
 [data]: https://v3.vuejs.org/api/options-data.html#data-2
 [props]: https://v3.vuejs.org/api/options-data.html#props
 [computed]: https://v3.vuejs.org/api/options-data.html#computed
@@ -247,3 +256,4 @@ Lifecycle hooks : { [beforeCreated], [created], [beforeMount], [mounted],
 [v-model]: https://v3.vuejs.org/api/directives.html#v-model
 [mutation methods]: https://v3.vuejs.org/guide/list.html#mutation-methods
 [composition api]: https://v3.vuejs.org/guide/composition-api-introduction.html#why-composition-api
+[vue router 4]: https://v3.vuejs.org/guide/migration/introduction.html#vue-router
